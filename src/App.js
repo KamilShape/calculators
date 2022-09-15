@@ -33,10 +33,10 @@ class App extends Component {
             <div className='app_link' onClick={()=>this.changeVisibility('buttons')}><NavLink to="/sports"><StartButton name='Sport' picture='fas fa-running'/></NavLink></div>
           </div>
           <Routes>
-            <Route path='*/'element={<Start/>}/>  
-            <Route path='*/math/*'element={<Math/>}/>
-            <Route path='*/health/*'element={<Physics/>}/>
-            <Route path='*/sports/*' element={<Sports/>}/>
+            <Route path='calculators/'element={<Start/>}/>  
+            <Route path='calculators/math/*'element={<Math/>}/>
+            <Route path='calculators/health/*'element={<Physics/>}/>
+            <Route path='calculators/sports/*' element={<Sports/>}/>
           </Routes>
         </Router>
       </div>
