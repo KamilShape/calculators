@@ -1,0 +1,24 @@
+.start {
+    width: 60%;
+    margin: 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start_buttons {
+    margin: 50px auto;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.start_header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.start_icon {
+    margin: 0 auto;
+    font-size: 300px;
+}

@@ -1,0 +1,13 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}

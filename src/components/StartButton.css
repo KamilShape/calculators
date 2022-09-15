@@ -1,0 +1,28 @@
+.startButton {
+    text-align: center;
+    min-width: 80px;
+    padding: 10px;
+    transition: 0.25s ease-in-out;
+    box-shadow: rgb(48, 140, 180) 0px 3px 8px;
+}
+
+.startButton:hover {
+    background-color: rgb(48, 140, 180);
+    color: rgb(255, 255, 255)
+}
+
+.startButton:hover {
+    cursor: pointer;
+}
+
+.startButton_picture {
+    font-size: 20px;
+    width: 50%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.startButton_name {
+    font-size: 22px;
+    width: 50%;
+}
